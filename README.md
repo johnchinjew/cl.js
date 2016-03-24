@@ -1,5 +1,5 @@
 # cl.js - console.log at the speed of light!
-A single line of code, 30 bytes small, to make every programmer's life a *byte* easier!
+cl.js is a *30 byte small* JavaScript snippet that speeds up the repetitive task of logging variables! Check it out:
 
 **Instead of writing this mush...**
 ```
