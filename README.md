@@ -1,30 +1,31 @@
 # cl.js - console.log at the speed of light!
-cl.js is a *30 byte small* JavaScript snippet that speeds up the repetitive task of logging variables! Check it out:
+cl.js is a *30 byte small* JavaScript snippet that speeds up the repetitive task of logging variables.
 
 **Instead of writing this mush...**
 ```
-console.log(testVar);
+console.log(x);
 ```
 **Just write this!**
 ```
-cl(testVar);
+cl(x);
 ```
-And for good measure, take a CodePen **[demo](http://codepen.io/johnchinjew/pen/NNjBYG)**!
+Want to try it out? Here's a CodePen **[demo](http://codepen.io/johnchinjew/pen/NNjBYG)**!
 
 ## Usage
-1. Download 'cl.min.js' and link it to your page with a script tag. Make sure you link it above the script files you want cl.js to affect!
+- Download 'cl.min.js' and link it to your page with a script tag. Make sure you link it above the script files you want cl.js to affect!
 ```
-<script src="path/to/file/cl.min.js"></script> // change 'path/to/file/' to the file path to cl.min.js
+<script src="path/to/file/cl.min.js"></script> // replace 'path/to/file'
 
 // insert other scripts here
 ```
-2. Or, manually paste the snippet below at the top of your JavaScript file(s).
+- Or, manually paste the snippet below at the top of your JavaScript file(s).
 ```
 var cl=function(x){console.log(x)}
 ```
-3. And lastly, use the smaller, more enjoyable cl.js syntax! `cl(testVar);`
+- Finally, use the smaller, more enjoyable cl.js syntax! `cl(x);`
 
 *PS: You can rename the `cl` function to customize usage.*
+
 *PPS: You should probably remove cl.js before you push production code.*
 
 ## License
