@@ -12,21 +12,21 @@ cl(x);
 Want to try it out? Here's a CodePen **[demo](http://codepen.io/johnchinjew/pen/NNjBYG)**!
 
 ## Usage
-- Download 'cl.min.js' and link it to your page with a script tag. Make sure you link it above the script files you want cl.js to affect!
+- Download `cl.min.js` and link it to your page with a `<script>`. Make sure you link it **above** the script files you want cl.js to affect!
 ```
-<script src="path/to/file/cl.min.js"></script> // replace 'path/to/file'
+<script src="path/to/file/cl.min.js"></script>
 
 // insert other scripts here
 ```
-- Or, manually paste the snippet below at the top of your JavaScript file(s).
+- Or, manually paste this snippet at the top of your JavaScript file(s).
 ```
 var cl=function(x){console.log(x)}
 ```
-- Finally, use the smaller, more enjoyable cl.js syntax! `cl(x);`
+- Finally, use new logging syntax; like so! `cl(x);`
 
-*PS: You can rename the `cl` function to customize usage.*
+*PS: You can rename the `cl` function from `cl.js` to customize usage.*
 
-*PPS: You should probably remove cl.js before you push production code.*
+*PPS: You should probably remove cl.js files and code before you push production code.*
 
 ## License
 [MIT](https://github.com/johnchinjew/cl.js/blob/master/LICENSE)
