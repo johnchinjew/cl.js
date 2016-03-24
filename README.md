@@ -1,7 +1,7 @@
 # cl.js - console.log at the speed of light!
-> A single line of code, 30 bytes small, to make every programmer's life a *byte* easier!
+A single line of code, 30 bytes small, to make every programmer's life a *byte* easier!
 
-**Instead of this unnecesarily lengthy mush...**
+**Instead of writing this mush...**
 ```
 console.log(testVar);
 ```
