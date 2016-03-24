@@ -26,7 +26,7 @@ var cl=function(x){console.log(x)} // you can actually rename 'cl' to anything y
 
 *PS: You should probably remove cl.js files and code before you push production code.*
 
-## More Info
+## More info
 [Read the post!](http://codepen.io/johnchinjew/post/cl-js-console-log-at-the-speed-of-light)
 
 ## License
