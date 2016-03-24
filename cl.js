@@ -1,5 +1,5 @@
 /*!
- * cl.js v0.0.1
+ * cl.js v1.0.0
  * MIT License
  * github.com/johnchinjew/cl.js
  */
