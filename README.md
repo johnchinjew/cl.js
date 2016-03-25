@@ -1,5 +1,5 @@
 # cl.js - console.log at the speed of light!
-cl.js is a *30 byte small* JavaScript snippet that speeds up the repetitive task of logging variables.
+cl.js is a *40 byte small* JavaScript snippet that speeds up the repetitive task of logging variables.
 
 **Instead of writing this mush...**
 ```
@@ -20,7 +20,9 @@ Want to try it out? Here's a CodePen **[demo](http://codepen.io/johnchinjew/pen/
 ```
 - Or, manually paste this snippet at the top of your JavaScript file(s).
 ```
-var cl=function(x){console.log(x)} // you can actually rename 'cl' to anything you want to use instead of 'console.log'
+var cl=function(){console.log(...arguments)} // you can actually rename 'cl' to anything you want to use instead of 'console.log'
+
+// the rest of your js
 ```
 - Finally, use the new logging syntax; like so! `cl(x);`
 
