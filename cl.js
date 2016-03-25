@@ -4,6 +4,4 @@
  * github.com/johnchinjew/cl.js
  */
 
-var cl = function (valueToLog) {
-  console.log (valueToLog);
-};
+var cl = function () { console.log (...arguments); };
