@@ -29,6 +29,13 @@ var cl=function(){console.log(...arguments)} // you can actually rename 'cl' to 
 
 *PS: You should probably remove cl.js files and code before you push production code.*
 
+## By the way
+The cl.js snippet uses ES6, so make sure your using a up to date browser. Here's the regular version for older browsers, just in case:
+
+```
+var cl = function(){console.log.apply(console,arguments);};
+```
+
 ## More info
 [Read the post!](http://codepen.io/johnchinjew/post/cl-js-console-log-at-the-speed-of-light)
 
