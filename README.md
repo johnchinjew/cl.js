@@ -33,7 +33,7 @@ var cl=function(){console.log(...arguments)} // you can actually rename 'cl' to 
 The cl.js snippet uses ES6, so make sure you're using an up-to-date browser. Here's the regular version for older browsers, just in case:
 
 ```
-var cl = function(){console.log.apply(console,arguments);};
+var cl = function() { console.log.apply(console,arguments) }
 ```
 
 ## More info
