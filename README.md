@@ -1,5 +1,5 @@
 # cl.js - console.log at the speed of light!
-> 28 bytes, to make every programmer's life a *byte* easier!
+> 21 bytes, to make every programmer's life a *byte* easier!
 cl.js is a tiny JavaScript snippet that speeds up the repetitive task of logging variables.
 
 **Instead of writing this mush...**
@@ -21,7 +21,7 @@ Want to try it out? Here's a CodePen **[demo](http://codepen.io/johnchinjew/pen/
 ```
 - Or, manually paste this snippet at the top of your JavaScript file(s).
 ```
-var cl = console.log.bind(console); // you can actually rename 'cl' to anything you want to use instead of 'console.log'
+var cl = console.log.bind(); // you can actually rename 'cl' to anything you want to use instead of 'console.log'
 
 // the rest of your js
 ```
