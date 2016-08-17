@@ -4,4 +4,4 @@
  * github.com/johnchinjew/cl.js
  */
 
-var cl = console.log.bind( console );
+var cl = console.log.bind()
