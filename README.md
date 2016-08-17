@@ -36,4 +36,4 @@ var cl = console.log.bind(); // you can actually rename 'cl' to anything you wan
 [MIT](https://github.com/johnchinjew/cl.js/blob/master/LICENSE)
 
 ## Awknowledgements
-cl.js was thought up and created by [John Chin-Jew](http://johnchinjew.com). Follow on Twitter: [@johnchinjew](http://twitter.com/johnchinjew)!
+A thing thought up by [John Chin-Jew](http://johnchinjew.com) and improved by many! Follow on Twitter: [@johnchinjew](http://twitter.com/johnchinjew)!
