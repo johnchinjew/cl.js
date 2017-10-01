@@ -10,7 +10,6 @@ console.log(x);
 ```
 cl(x);
 ```
-Want to try it out? Here's a CodePen **[demo](http://codepen.io/johnchinjew/pen/NNjBYG)**!
 
 ## Usage
 - Download `cl.min.js` and link it to your page with a `<script>` tag. Make sure you link it **above** the script files you want cl.js to affect!
